@@ -31,3 +31,36 @@ h1{
     font-weight: 600;
     color: white;
 }
+.grid-container {
+    display: grid;
+    height: 100px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 3px;
+  }
+  .grid-container > div {
+    background-color: #E2E2E2;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+  }
+#overup{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#underline{
+    border-bottom: 1px solid black;
+    width: 70vw;
+}
+#underline > p {
+    display: flex;
+    justify-content: center;
+    color: #E2E2E2;
+    font-size: medium;
+}
+.text-szie{
+    text-size-adjust: 2px;
+}
