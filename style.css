@@ -3,6 +3,9 @@
     padding: 0px;
 
 }
+body{
+    font-family: 'Roboto Mono', monospace;
+}
 .full-image{
     width: 100vw;
     height: 100vh;
@@ -39,19 +42,34 @@ h1{
     grid-template-columns: auto auto auto auto auto;
     gap: 10px;
     padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
   .grid-container > div {
     background-color: #E2E2E2;
     text-align: center;
     padding: 10px 0;
     font-size: 25px;
-  }
-#overup{
-    display: flex;
+    height: 80px;
     justify-content: center;
-    flex-direction: column;
+    display: flex;
     align-items: center;
-}
+  }
+  .grid-container-box{
+    display: grid;
+    height: 200px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  }
+  .grid-container-box > div{
+    padding: 15px;
+    height: 200px;
+  }
 #underline{
     border-bottom: 1px solid black;
     width: 70vw;
@@ -75,6 +93,7 @@ h1{
 }
 .middle-text{
     text-align: left;
+    padding: 10px;
 }
 h2{
     font-size: xx-large;
@@ -98,4 +117,10 @@ form{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+footer{
+    text-align: center;
+    background-color: darkslategrey;
+    height: 150px;
+    padding-top: 60px;
 }
